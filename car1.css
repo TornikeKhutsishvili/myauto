@@ -1,0 +1,47 @@
+.from-group,
+.fromyears,
+.toyears,
+.fromprice,
+.toprice,
+.fromengine,
+.toengine,
+.yearsselect,
+.priceselect,
+.engineselect{
+    width: 197px !important;
+    display: inline-block !important;
+}
+.maindiv2{
+    width: 600px;
+}
+.maindiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bottomsave{
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+    width: 600px;
+    height: 37px;
+    margin-top: 10px;
+}
+.fa-solid{
+    text-align: center;
+    margin-right: 10px;
+    font-size: 14px;
+}
+#myimage{
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    box-sizing: border-box !important;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+}
+#image{
+    margin-left: 200px;
+    margin-top: 10px;
+}

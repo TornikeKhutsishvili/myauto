@@ -1,0 +1,214 @@
+body{
+    background-color: #F2F3F6;
+}
+.from-group,
+.fromyears,
+.toyears,
+.fromprice,
+.toprice,
+.fromengine,
+.toengine{
+    width: 170px !important;
+    display: inline-block !important;
+}
+.maindiv2{
+    width: 600px;
+    text-align: center;
+}
+.maindiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btnsearch{
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+    width: 520px;
+    height: 37px;
+    background-color: #FD4100 !important;
+    margin-top: 10px;
+}
+.fa-solid{
+    text-align: center;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.cardiv{
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cardiv2{
+    width: 815px;
+    /* border: 1px solid black; */
+    height: 200px;
+    padding: 14px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.carphoto{
+    border: 1px solid black;
+    width: 200px;
+    height: 170px;
+    border-radius: 10px;
+}
+.model_years{
+    /* border: 1px solid black; */
+    height: 20px;
+    width: 180px;
+    margin-left: 215px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
+.engine{
+    /* border: 1px solid black; */
+    height: 80px;
+    width: 150px;
+    margin-left: 215px;
+    margin-top: 25px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.enginesharp{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gear{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.speed{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.whell{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.see{
+    /* border: 1px solid black; */
+    height: 20px;
+    width: 250px;
+    margin-left: 215px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #8095BC;
+}
+.vipdiv{
+    border-radius: 45%;
+    background-color: red !important;
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 20px;
+}
+.km{
+    /* border: 1px solid black; */
+    height: 80px;
+    width: 150px;
+    margin-left: 440px;
+    margin-top: -125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.border_price{
+    /* border: 1px solid black; */
+    height: 20px;
+    width: 230px;
+    margin-left: 560px;
+    margin-top: -125px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.h1red{
+    font-size: 13px;
+    color: red;
+}
+.h1dark{
+    font-size: 13px;
+    color: #A3BFDA;
+}
+.price{
+    /* border: 1px solid black; */
+    height: 30px;
+    width: 130px;
+    margin-left: 660px;
+    margin-top: 25px;
+}
+.favourite{
+    /* border: 1px solid black; */
+    height: 20px;
+    width: 130px;
+    margin-left: 660px;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.valut{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px;
+}
+.wallut{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dollar,
+.lari{
+    border-radius: 50%;
+    width: 23px;
+    text-align: center;
+}
+.dollar{
+    color: #A3BFDA;
+    cursor: pointer;
+}
+.lari{
+    margin-left: 3px;
+    background-color: #A3BFDA;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cash{
+    /* border: 1px solid black; */
+    width: 70px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whellh1,
+.speedh1,
+.gearh1,
+.enginesharph1{
+    font-size: 14px;
+    margin-top: 7px;
+}
