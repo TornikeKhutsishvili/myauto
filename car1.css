@@ -1,15 +1,16 @@
-.from-group,
-.fromyears,
-.toyears,
-.fromprice,
-.toprice,
-.fromengine,
-.toengine,
-.yearsselect,
-.priceselect,
-.engineselect{
+.from-group{
     width: 197px !important;
     display: inline-block !important;
+}
+.locations{
+    width: 600px !important;
+}
+.year,
+.price,
+.engine,
+.mileage{
+    width: 297.5px !important;
+    display: inline-block !important; 
 }
 .maindiv2{
     width: 600px;
@@ -44,4 +45,5 @@
 #image{
     margin-left: 200px;
     margin-top: 10px;
+    width: 205px;
 }
